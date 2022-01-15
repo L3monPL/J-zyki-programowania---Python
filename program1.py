@@ -142,7 +142,6 @@ def cash_out(name_list, acc_num_list, acc_blc_list):
         return name_list, acc_num_list, acc_blc_list
 
 
-# Function for depositing an amount to an account
 def add_money(name_list, acc_num_list, acc_blc_list):
     account_number = input("\Wprowadz numer konta:\n")
     index = 0
